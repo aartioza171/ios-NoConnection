@@ -1,0 +1,27 @@
+Version : 1.0.0
+
+Application Name : NoInternetConnection
+----------------------------------------------------------------
+Core features of application :
+- This will add no internet connection screen in case of
+    - No internet connection
+    - Not connected to wifi
+    - Server not responding
+    - Request timeout
+----------------------------------------------------------------
+Custom classess :
+
+- Constant.swift
+    - stores all constant, keys, enums, objects
+- ServerCommunication.swift
+    - Handling API call
+- Helper.swift
+    - stores all global methods
+- TextMessage.swift
+    - stores all static alert and Text messages
+----------------------------------------------------------------
+
+Third party api used :
+- Alamofire
+- SVProgressHUD
+----------------------------------------------------------------

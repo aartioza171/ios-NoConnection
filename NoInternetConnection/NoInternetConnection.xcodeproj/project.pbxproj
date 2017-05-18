@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17A113791EAF29D600817F40 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A113751EAF29D600817F40 /* BaseViewController.swift */; };
+		17A1137A1EAF29D600817F40 /* NoConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A113761EAF29D600817F40 /* NoConnectionVC.swift */; };
+		17A1137B1EAF29D600817F40 /* Screen1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A113771EAF29D600817F40 /* Screen1VC.swift */; };
+		17A1137C1EAF29D600817F40 /* Screen2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A113781EAF29D600817F40 /* Screen2VC.swift */; };
+		17A113821EAF29DF00817F40 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A1137F1EAF29DF00817F40 /* Constant.swift */; };
+		17A113831EAF29DF00817F40 /* ServerCommunication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A113801EAF29DF00817F40 /* ServerCommunication.swift */; };
+		17A724511EBB5E54006C8DA5 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A724501EBB5E54006C8DA5 /* Helper.swift */; };
+		17C3C3451ECD73B300FDD0B1 /* TextMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C3C3441ECD73B300FDD0B1 /* TextMessage.swift */; };
+		17C3C3471ECD787000FDD0B1 /* Appinfo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 17C3C3461ECD787000FDD0B1 /* Appinfo.txt */; };
+		17DDC36A1EA9DE2300A36EA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DDC3691EA9DE2300A36EA9 /* AppDelegate.swift */; };
+		17DDC36F1EA9DE2300A36EA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DDC36D1EA9DE2300A36EA9 /* Main.storyboard */; };
+		17DDC3711EA9DE2300A36EA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DDC3701EA9DE2300A36EA9 /* Assets.xcassets */; };
+		17DDC3741EA9DE2300A36EA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DDC3721EA9DE2300A36EA9 /* LaunchScreen.storyboard */; };
+		17DDC3841EAA106C00A36EA9 /* NoConnection.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DDC3831EAA106C00A36EA9 /* NoConnection.png */; };
+		2A104642DD987D3570D3129A /* Pods_NoInternetConnection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4237A54C087E03246B7448DD /* Pods_NoInternetConnection.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		17A113751EAF29D600817F40 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		17A113761EAF29D600817F40 /* NoConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoConnectionVC.swift; sourceTree = "<group>"; };
+		17A113771EAF29D600817F40 /* Screen1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen1VC.swift; sourceTree = "<group>"; };
+		17A113781EAF29D600817F40 /* Screen2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Screen2VC.swift; sourceTree = "<group>"; };
+		17A1137F1EAF29DF00817F40 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		17A113801EAF29DF00817F40 /* ServerCommunication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerCommunication.swift; sourceTree = "<group>"; };
+		17A724501EBB5E54006C8DA5 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		17C3C3441ECD73B300FDD0B1 /* TextMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextMessage.swift; sourceTree = "<group>"; };
+		17C3C3461ECD787000FDD0B1 /* Appinfo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appinfo.txt; sourceTree = "<group>"; };
+		17DDC3661EA9DE2300A36EA9 /* NoInternetConnection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoInternetConnection.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DDC3691EA9DE2300A36EA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17DDC36E1EA9DE2300A36EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17DDC3701EA9DE2300A36EA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17DDC3731EA9DE2300A36EA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17DDC3751EA9DE2300A36EA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17DDC3831EAA106C00A36EA9 /* NoConnection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoConnection.png; sourceTree = "<group>"; };
+		4237A54C087E03246B7448DD /* Pods_NoInternetConnection.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NoInternetConnection.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE98CA5324C6A9038B9545A /* Pods-NoInternetConnection.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoInternetConnection.release.xcconfig"; path = "Pods/Target Support Files/Pods-NoInternetConnection/Pods-NoInternetConnection.release.xcconfig"; sourceTree = "<group>"; };
+		7F8BB962B303B97A7CD7E3E7 /* Pods-NoInternetConnection.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NoInternetConnection.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NoInternetConnection/Pods-NoInternetConnection.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17DDC3631EA9DE2300A36EA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A104642DD987D3570D3129A /* Pods_NoInternetConnection.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A113741EAF29D600817F40 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				17A113751EAF29D600817F40 /* BaseViewController.swift */,
+				17A113761EAF29D600817F40 /* NoConnectionVC.swift */,
+				17A113771EAF29D600817F40 /* Screen1VC.swift */,
+				17A113781EAF29D600817F40 /* Screen2VC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		17A1137D1EAF29DF00817F40 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				17A1137F1EAF29DF00817F40 /* Constant.swift */,
+				17A113801EAF29DF00817F40 /* ServerCommunication.swift */,
+				17A724501EBB5E54006C8DA5 /* Helper.swift */,
+				17C3C3441ECD73B300FDD0B1 /* TextMessage.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
+		17DDC35D1EA9DE2200A36EA9 = {
+			isa = PBXGroup;
+			children = (
+				17DDC3681EA9DE2300A36EA9 /* NoInternetConnection */,
+				17DDC3671EA9DE2300A36EA9 /* Products */,
+				EEB1A47CC5BEB9C9E23BFE99 /* Pods */,
+				FCBC7F00BA4F79E2C8415764 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17DDC3671EA9DE2300A36EA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17DDC3661EA9DE2300A36EA9 /* NoInternetConnection.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17DDC3681EA9DE2300A36EA9 /* NoInternetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				17DDC3831EAA106C00A36EA9 /* NoConnection.png */,
+				17DDC3691EA9DE2300A36EA9 /* AppDelegate.swift */,
+				17A1137D1EAF29DF00817F40 /* CustomClasses */,
+				17A113741EAF29D600817F40 /* ViewControllers */,
+				17DDC36D1EA9DE2300A36EA9 /* Main.storyboard */,
+				17DDC3701EA9DE2300A36EA9 /* Assets.xcassets */,
+				17DDC3721EA9DE2300A36EA9 /* LaunchScreen.storyboard */,
+				17DDC3751EA9DE2300A36EA9 /* Info.plist */,
+				17C3C3461ECD787000FDD0B1 /* Appinfo.txt */,
+			);
+			path = NoInternetConnection;
+			sourceTree = "<group>";
+		};
+		EEB1A47CC5BEB9C9E23BFE99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F8BB962B303B97A7CD7E3E7 /* Pods-NoInternetConnection.debug.xcconfig */,
+				4BE98CA5324C6A9038B9545A /* Pods-NoInternetConnection.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FCBC7F00BA4F79E2C8415764 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4237A54C087E03246B7448DD /* Pods_NoInternetConnection.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17DDC3651EA9DE2300A36EA9 /* NoInternetConnection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DDC3781EA9DE2300A36EA9 /* Build configuration list for PBXNativeTarget "NoInternetConnection" */;
+			buildPhases = (
+				E79CCA258B18CC6947B7B8E8 /* [CP] Check Pods Manifest.lock */,
+				17DDC3621EA9DE2300A36EA9 /* Sources */,
+				17DDC3631EA9DE2300A36EA9 /* Frameworks */,
+				17DDC3641EA9DE2300A36EA9 /* Resources */,
+				1DB2F95B1DD31B81EA666098 /* [CP] Embed Pods Frameworks */,
+				651AAE182AF899C96A71EFE4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoInternetConnection;
+			productName = NoInternetConnection;
+			productReference = 17DDC3661EA9DE2300A36EA9 /* NoInternetConnection.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17DDC35E1EA9DE2200A36EA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Aarti Oza";
+				TargetAttributes = {
+					17DDC3651EA9DE2300A36EA9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 17DDC3611EA9DE2200A36EA9 /* Build configuration list for PBXProject "NoInternetConnection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17DDC35D1EA9DE2200A36EA9;
+			productRefGroup = 17DDC3671EA9DE2300A36EA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17DDC3651EA9DE2300A36EA9 /* NoInternetConnection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17DDC3641EA9DE2300A36EA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17DDC3741EA9DE2300A36EA9 /* LaunchScreen.storyboard in Resources */,
+				17DDC3711EA9DE2300A36EA9 /* Assets.xcassets in Resources */,
+				17DDC36F1EA9DE2300A36EA9 /* Main.storyboard in Resources */,
+				17DDC3841EAA106C00A36EA9 /* NoConnection.png in Resources */,
+				17C3C3471ECD787000FDD0B1 /* Appinfo.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1DB2F95B1DD31B81EA666098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoInternetConnection/Pods-NoInternetConnection-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		651AAE182AF899C96A71EFE4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NoInternetConnection/Pods-NoInternetConnection-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79CCA258B18CC6947B7B8E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DDC3621EA9DE2300A36EA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A113821EAF29DF00817F40 /* Constant.swift in Sources */,
+				17A113831EAF29DF00817F40 /* ServerCommunication.swift in Sources */,
+				17A1137C1EAF29D600817F40 /* Screen2VC.swift in Sources */,
+				17A1137B1EAF29D600817F40 /* Screen1VC.swift in Sources */,
+				17A1137A1EAF29D600817F40 /* NoConnectionVC.swift in Sources */,
+				17C3C3451ECD73B300FDD0B1 /* TextMessage.swift in Sources */,
+				17A724511EBB5E54006C8DA5 /* Helper.swift in Sources */,
+				17DDC36A1EA9DE2300A36EA9 /* AppDelegate.swift in Sources */,
+				17A113791EAF29D600817F40 /* BaseViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		17DDC36D1EA9DE2300A36EA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DDC36E1EA9DE2300A36EA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17DDC3721EA9DE2300A36EA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17DDC3731EA9DE2300A36EA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17DDC3761EA9DE2300A36EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17DDC3771EA9DE2300A36EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17DDC3791EA9DE2300A36EA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F8BB962B303B97A7CD7E3E7 /* Pods-NoInternetConnection.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NoInternetConnection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarti.NoInternetConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17DDC37A1EA9DE2300A36EA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BE98CA5324C6A9038B9545A /* Pods-NoInternetConnection.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NoInternetConnection/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aarti.NoInternetConnection;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DDC3611EA9DE2200A36EA9 /* Build configuration list for PBXProject "NoInternetConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDC3761EA9DE2300A36EA9 /* Debug */,
+				17DDC3771EA9DE2300A36EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17DDC3781EA9DE2300A36EA9 /* Build configuration list for PBXNativeTarget "NoInternetConnection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17DDC3791EA9DE2300A36EA9 /* Debug */,
+				17DDC37A1EA9DE2300A36EA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17DDC35E1EA9DE2200A36EA9 /* Project object */;
+}
